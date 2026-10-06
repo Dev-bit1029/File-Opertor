@@ -10,9 +10,9 @@ class Manager :
     def __init__(self):
         try :
             file = open("data.txt","x")
-            pass
+            file.close()
         except:
-            pass
+            print()
     def add_entry(self):
         try :
             
@@ -25,7 +25,7 @@ class Manager :
             print(" Entry Added Successfully  ")
             
         except:
-            pass
+            print()
         
     def view_entry(self):
         try:
@@ -34,7 +34,7 @@ class Manager :
             file.close()
             print(data)
         except:
-            pass           
+            print()           
     def Search_entry(self):
         
         try:
@@ -50,7 +50,7 @@ class Manager :
             
 
         except:
-            pass
+            print()
             
     def delete_entry(self):
         try:
@@ -60,7 +60,7 @@ class Manager :
             print("Successfully Deleted All Entry ")
             
         except:
-            pass
+            print()
             
 obj = Manager()
 
