@@ -146,13 +146,13 @@ Thank you For Using Personal Journal Manager....
 ```
 
 │
-├── main.py
-│
-├── output.png
-│
-└── README.md
+├── README.md
 │
 ├── data.txt
+│
+└── main.py
+│
+├── output.png
     
 ```
 
